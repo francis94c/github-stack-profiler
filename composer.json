@@ -1,0 +1,40 @@
+{
+    "name": "francis94c/github-stack-profiler",
+    "type": "library",
+    "description": "PHP library to calculate the percentage usage of programing languages according to your GitHub profile.",
+    "keywords": [
+        "php",
+        "github",
+        "stack",
+        "languages"
+    ],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francis Ilechukwu",
+            "email": "francis94c@gmail.com",
+            "homepage": "https://francis94c.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2",
+        "mikecao/flight": "^1.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "GitHubStackProfiler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
